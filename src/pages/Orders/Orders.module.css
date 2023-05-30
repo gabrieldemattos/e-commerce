@@ -1,0 +1,262 @@
+.user_orders h1{
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+    color: var(--primary-color);
+}
+
+.user_orders ul{
+    display: flex;
+    gap: 2rem;
+    min-width: 32rem;
+    overflow-y: hidden;
+    margin-right: 5rem;
+    padding-bottom: 2rem;
+    padding-left: .5rem;
+}
+
+.user_orders ul::-webkit-scrollbar {
+    width: 12px;           
+  }
+  
+.user_orders ul::-webkit-scrollbar-track {
+    background: rgb(221, 219, 219);       
+    border-radius: 20px;
+}
+  
+.user_orders ul::-webkit-scrollbar-thumb {
+    background-color: rgb(47, 47, 49);   
+    border-radius: 20px;       
+    border: 3px solid rgb(221, 219, 219);  
+}
+
+.user_orders ul li{
+    width: 70px;
+    height: 80px;
+}
+
+.user_orders ul li img{
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    border-radius: 5px;
+}
+
+.orders{
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.order_list h2{
+    color: rgb(51, 51, 51);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+
+.order_list{
+    width: 100%;
+}
+
+.list{
+    display: flex;
+    width: 100%;
+}
+
+.order_details{
+    width: 100%;
+}
+
+.order_details div > span{
+    width: 50%;
+    display: inline;
+    color: rgb(114, 114, 114);
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.order_details > div{
+    width: 100%;
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+
+.order_details div h4{
+    display: inline;
+    color: rgb(33, 33, 33);
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.total_price{
+    display: inline;
+    color: rgb(114, 114, 114);
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.price{
+    color: rgb(33, 33, 33);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.dispatched{
+    width: 25rem;
+    padding: 4px 8px;
+    display: flex;
+    border: 1px solid rgb(0, 112, 192);
+    background: rgb(255, 255, 255);
+    align-self: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.dispatched p{
+    color: rgb(0, 112, 192);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: normal;
+    top: -1px;
+}
+
+.delivered{
+    width: 25rem;
+    padding: 4px 8px;
+    display: flex;
+    border: 1px solid rgb(0, 176, 80);
+    background: rgb(255, 255, 255);
+    align-self: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.delivered p{
+    color: rgb(0, 176, 80);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: normal;
+    top: -1px;
+}
+
+.awaiting_payment{
+    width: 25rem;
+    padding: 4px 8px;
+    display: flex;
+    border: 1px solid #929090;
+    background: rgb(255, 255, 255);
+    align-self: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.awaiting_payment p{
+    color: #929090;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: normal;
+    top: -1px;
+}
+
+
+.canceled{
+    width: 25rem;
+    padding: 4px 8px;
+    display: flex;
+    border: 1px solid #e20404;
+    background: rgb(255, 255, 255);
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.canceled p{
+    color: #e20404;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: normal;
+    top: -1px;
+}
+
+
+/* =========== RESPONSIVE ============ */
+@media (max-width: 1024px) {
+    .list{
+        flex-direction: column;
+        row-gap: 5rem;
+    }
+
+    .dispatched,
+    .delivered,
+    .awaiting_payment,
+    .canceled{
+        width: 20rem;
+    }
+    
+    .dispatched p,
+    .delivered p,
+    .awaiting_payment p,
+    .canceled p{
+        font-size: 1.2rem;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .user_orders{
+        width: 65%;
+    }
+
+    .dispatched,
+    .delivered,
+    .awaiting_payment,
+    .canceled{
+        width: fit-content;
+    }
+    
+}
+
+@media (max-width: 425px) {
+    .user_orders{
+        width: 100%;
+    }
+
+    .dispatched,
+    .delivered,
+    .awaiting_payment,
+    .canceled{
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 375px) {
+    .dispatched,
+    .delivered,
+    .awaiting_payment,
+    .canceled{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    .user_orders ul{
+        gap: 1.6rem;
+        min-width: 25rem;
+    }
+}

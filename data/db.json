@@ -1,0 +1,279 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Sofá",
+      "price": 899.51,
+      "product_variations": 1,
+      "product_review": 1,
+      "category": "móveis",
+      "promotion": 0,
+      "installments": 1,
+      "product_images": {
+        "image_1": [
+          "https://i.imgur.com/NscEWmr.png",
+          "https://i.imgur.com/RWllES1.png",
+          "https://i.imgur.com/hjxJP2w.png",
+          "https://i.imgur.com/BgZzQxL.png",
+          "https://i.imgur.com/tiow1dC.png"
+        ],
+        "colors": [
+          "vermelho"
+        ]
+      },
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae iusto quos quasi in quibusdam non nihil rerum veritatis unde odio atque vero officia exercitationem minus velit neque, optio illum."
+    },
+    {
+      "id": 2,
+      "name": "Cadeira",
+      "price": 250,
+      "product_variations": 1,
+      "product_review": 2,
+      "category": "móveis",
+      "promotion": 0,
+      "installments": 5,
+      "product_images": {
+        "image_1": [
+          "https://i.imgur.com/9pp8xny.png",
+          "https://i.imgur.com/uowFXpt.png",
+          "https://i.imgur.com/parIdK7.png",
+          "https://i.imgur.com/5cLvhkv.png"
+        ],
+        "colors": [
+          "branco"
+        ]
+      },
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae iusto quos quasi in quibusdam non nihil rerum veritatis unde odio atque vero officia exercitationem minus velit neque, optio illum."
+    },
+    {
+      "id": 3,
+      "name": "Mesa para sala de estar",
+      "price": 800,
+      "product_variations": 2,
+      "product_review": 3,
+      "category": "móveis",
+      "promotion": 0,
+      "installments": 8,
+      "product_images": {
+        "image_1": [
+          "https://i.imgur.com/7Rzfrjg.png",
+          "https://i.imgur.com/nS30omQ.png"
+        ],
+        "image_2": [
+          "https://i.imgur.com/wutMWbW.png",
+          "https://i.imgur.com/JqfTGTM.png"
+        ],
+        "colors": [
+          "branco",
+          "preto"
+        ]
+      },
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae iusto quos quasi in quibusdam non nihil rerum veritatis unde odio atque vero officia exercitationem minus velit neque, optio illum."
+    },
+    {
+      "id": 4,
+      "name": "Tapete para sala de estar",
+      "price": 178,
+      "product_variations": 1,
+      "product_review": 4,
+      "category": "móveis",
+      "promotion": 0,
+      "installments": 2,
+      "product_images": {
+        "image_1": [
+          "https://i.imgur.com/9tyy534.png",
+          "https://i.imgur.com/3aadC14.png",
+          "https://i.imgur.com/QvHcwb4.png"
+        ],
+        "colors": [
+          "branco"
+        ]
+      },
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae iusto quos quasi in quibusdam non nihil rerum veritatis unde odio atque vero officia exercitationem minus velit neque, optio illum."
+    },
+    {
+      "id": 5,
+      "name": "Puff para sala",
+      "price": 71.01,
+      "product_variations": 1,
+      "product_review": 5,
+      "category": "móveis",
+      "promotion": 15,
+      "installments": 1,
+      "product_images": {
+        "image_1": [
+          "https://i.imgur.com/1ffTYPI.png",
+          "https://i.imgur.com/F5iCVp1.png"
+        ],
+        "colors": [
+          "branco"
+        ]
+      },
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae iusto quos quasi in quibusdam non nihil rerum veritatis unde odio atque vero officia exercitationem minus velit neque, optio illum."
+    },
+    {
+      "id": 6,
+      "name": "Vaso de planta decorativo",
+      "price": 79.99,
+      "product_variations": 3,
+      "product_review": 0,
+      "category": "decorações de casa",
+      "promotion": 0,
+      "installments": 4,
+      "product_images": {
+        "image_1": [
+          "https://i.imgur.com/5CZn1PK.png"
+        ],
+        "image_2": [
+          "https://i.imgur.com/D2m8tTO.png",
+          "https://i.imgur.com/4iEwSAT.png",
+          "https://i.imgur.com/znWc626.png"
+        ],
+        "image_3": [
+          "https://i.imgur.com/5X9fOZJ.png",
+          "https://i.imgur.com/SlkVo6U.png",
+          "https://i.imgur.com/j6SWc33.png"
+        ],
+        "colors": [
+          "marrom",
+          "cinza",
+          "bege"
+        ]
+      },
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae iusto quos quasi in quibusdam non nihil rerum veritatis unde odio atque vero officia exercitationem minus velit neque, optio illum."
+    },
+    {
+      "id": 7,
+      "name": "Rack",
+      "price": 399.99,
+      "product_variations": 2,
+      "product_review": 5,
+      "category": "móveis",
+      "promotion": 0,
+      "installments": 8,
+      "product_images": {
+        "image_1": [
+          "https://i.imgur.com/F4wT1W5.png",
+          "https://i.imgur.com/We4MaKy.png"
+        ],
+        "image_2": [
+          "https://i.imgur.com/9auRnQu.png",
+          "https://i.imgur.com/6LEL9DE.png"
+        ],
+        "colors": [
+          "branco",
+          "preto"
+        ]
+      },
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae iusto quos quasi in quibusdam non nihil rerum veritatis unde odio atque vero officia exercitationem minus velit neque, optio illum."
+    },
+    {
+      "id": 8,
+      "name": "Sofá cama",
+      "price": 1040.6,
+      "product_variations": 1,
+      "product_review": 5,
+      "category": "móveis",
+      "promotion": 5,
+      "installments": 10,
+      "product_images": {
+        "image_1": [
+          "https://i.imgur.com/4eMeyyv.png"
+        ],
+        "colors": [
+          "cinza"
+        ]
+      },
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae iusto quos quasi in quibusdam non nihil rerum veritatis unde odio atque vero officia exercitationem minus velit neque, optio illum."
+    },
+    {
+      "id": 9,
+      "name": "Smartphone",
+      "price": 1999.99,
+      "product_variations": 1,
+      "product_review": 5,
+      "category": "eletrônicos",
+      "promotion": 10,
+      "installments": 5,
+      "product_images": {
+        "image_1": [
+          "https://i.imgur.com/4yGXS2e.png"
+        ],
+        "colors": [
+          "cinza"
+        ]
+      },
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae iusto quos quasi in quibusdam non nihil rerum veritatis unde odio atque vero officia exercitationem minus velit neque, optio illum."
+    },
+    {
+      "id": 10,
+      "name": "Ipad",
+      "price": 3299.99,
+      "product_variations": 1,
+      "product_review": 3,
+      "category": "eletrônicos",
+      "promotion": 12,
+      "installments": 1,
+      "product_images": {
+        "image_1": [
+          "https://i.imgur.com/c4QwKCC.png"
+        ],
+        "colors": [
+          "cinza"
+        ]
+      },
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae iusto quos quasi in quibusdam non nihil rerum veritatis unde odio atque vero officia exercitationem minus velit neque, optio illum."
+    },
+    {
+      "id": 11,
+      "name": "Console PS4 + God of War Ragnarok",
+      "price": 2999.99,
+      "product_variations": 1,
+      "product_review": 5,
+      "category": "games",
+      "promotion": 6,
+      "installments": 1,
+      "product_images": {
+        "image_1": [
+          "https://i.imgur.com/4WOLHOs.png"
+        ],
+        "colors": [
+          "preto"
+        ]
+      },
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae iusto quos quasi in quibusdam non nihil rerum veritatis unde odio atque vero officia exercitationem minus velit neque, optio illum."
+    },
+    {
+      "id": 12,
+      "name": "Game fifa 23 Br - ps4",
+      "price": 249.99,
+      "product_variations": 1,
+      "product_review": 3,
+      "category": "games",
+      "promotion": 0,
+      "installments": 1,
+      "product_images": {
+        "image_1": [
+          "https://i.imgur.com/WlsMBvv.png"
+        ],
+        "colors": [
+          "branco"
+        ]
+      },
+      "product_description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic molestiae iusto quos quasi in quibusdam non nihil rerum veritatis unde odio atque vero officia exercitationem minus velit neque, optio illum."
+    }
+  ],
+  "products_categories": [
+    "Móveis",
+    "Eletrônicos",
+    "Games",
+    "Cama",
+    "Banho",
+    "Decorações Casa",
+    "Informática",
+    "Esportes",
+    "Moda"
+  ],
+  "users": [],
+  "requests": []
+}

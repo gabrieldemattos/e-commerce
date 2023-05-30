@@ -1,0 +1,40 @@
+.container{
+    min-height: 76.5vh;
+    max-height: fit-content;
+    margin-inline: 32rem 45rem;
+    display: flex;
+    margin-block: 10rem;
+}
+
+.account_menu{
+    margin-right: 2rem;
+}
+
+/* ========= RESPONSIVE =========== */
+@media (max-width: 1440px) {
+    .container{
+        margin-inline: 5rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container{
+        margin-inline: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        margin-inline: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .container{
+        flex-direction: column;
+    }
+    .account_menu{
+        margin-right: 0rem;
+        margin-bottom: 5rem;
+    }
+}

@@ -1,0 +1,89 @@
+.banner{
+    background-image: url(https://tokemcasa.tokstok.com.br/wp-content/uploads/2020/04/moveis-para-recepcao-01-banner.png);
+    background-position: 10% 71%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 40rem;
+    position: relative;
+    -webkit-box-shadow: -2px 10px 23px -4px rgba(191,189,191,0.7);
+    -moz-box-shadow: -2px 10px 23px -4px rgba(191,189,191,0.7);
+    box-shadow: -2px 10px 23px -4px rgba(191,189,191,0.7);
+    
+    margin-bottom: 3rem;
+}
+
+.offer{
+    width: 60rem;
+    color: #fff;
+    position: absolute;
+    bottom: 5rem;
+    left: 10rem;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 1.5rem 2rem;
+}
+
+.offer h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+.offer button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-size: 2.5rem;
+    padding: .5rem 2.5rem;
+    color: #fff;
+    background: var(--primary-color);
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.offer button:hover{
+    background: var(--hover-primary-color);
+    letter-spacing: .1rem;
+}
+
+/* ====== RESPONSIVE ======== */
+@media (max-width: 768px) {
+    .banner{
+        height: 38rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .banner{
+        margin-bottom: 5rem;
+        background-position: 85%  70%;
+        background-size: auto;
+        height: 40rem;
+    }    
+
+    .offer{
+        width: 100%;
+        color: #000;
+        position: absolute;
+        bottom: 3rem;
+        left: 0rem;
+    }
+    
+    .offer h1{
+        font-size: 1.5rem;
+    }
+    
+    .offer button{
+        font-size: 1.5rem;
+    }
+}

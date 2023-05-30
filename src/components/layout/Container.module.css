@@ -1,0 +1,29 @@
+.container{
+    min-height: 80.8vh;
+    max-height: fit-content;
+    margin-inline: 32rem;
+}
+
+@media (max-width: 1440px) {
+    .container{
+        margin-inline: 5rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container{
+        margin-inline: 4rem;
+    }
+}
+
+@media (max-width: 768px){
+    .container{
+        margin-inline: 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .container{
+        margin-inline: 0;
+    }
+}

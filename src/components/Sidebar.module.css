@@ -1,0 +1,41 @@
+.side_menu{
+    border: 1px solid #eee;
+    border-radius: .4rem;
+    width: 22.5rem;
+    padding: .5rem 1rem;
+}
+
+.side_menu ul li{
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.side_menu ul li div{
+    display: flex;
+    align-items: center;
+    width: 22rem;
+}
+
+.side_menu ul li:last-child{
+    border: none;
+}
+
+.side_menu ul i{
+    font-size: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.4rem;
+}
+
+/* ======== RESPONSIVE ======== */
+@media (max-width: 425px) {
+    .side_menu{
+        width: 100%;
+    }
+}

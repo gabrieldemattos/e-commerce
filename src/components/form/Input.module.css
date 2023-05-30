@@ -1,0 +1,39 @@
+.form_control{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form_control input{
+    outline: none;
+    color: rgb(51, 51, 51);
+    width: 100%;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: .8rem;
+    height: 4.8rem;
+    padding: 1.5rem 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 2.3rem;
+}
+
+.form_control input:read-only{
+    background-color: #f0f0f0;
+    border-color: #eee !important;
+    cursor: default;
+}
+
+.form_control label{
+    font-size: 1.5rem;
+    line-height: 1.125rem;
+    margin-bottom: .8rem;
+    color: rgb(102, 102, 102);
+    font-family: Arial;
+}
+
+.error{
+    color: rgb(234, 1, 15);
+    font-size: 1.2rem;
+    font-family: Arial;
+    font-weight: lighter;
+    margin-block: -2rem 2.3rem;
+}

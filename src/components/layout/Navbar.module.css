@@ -1,0 +1,243 @@
+.navbar{
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    height: 4rem;
+    background: #fff;
+}
+
+.navbar_container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-inline: 32rem;
+}
+
+.zipcode{
+    cursor: pointer;
+    margin-right: 5rem;
+}
+
+.zipcode i{
+    font-size: 2.5rem; /* 1*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+}
+
+.zipcode span{
+    font-size: 1.2rem; /*1*/
+    font-style: normal;
+    line-height: 17px;
+    text-align: left;
+    letter-spacing: -.09px;
+    white-space: nowrap;
+    color: #999;
+    font-family: "Source Sans Pro Regular",sans-serif;
+}
+
+.zipcode .valid_zipcode{
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: .5px;
+    margin-left: .2rem;
+    color: var(--primary-color);
+}
+
+.categories{
+    border-left: 1px solid #eee;
+    height: 100%;
+    display: relative;
+}
+
+.categories div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.categories .hamburguer_menu{
+    font-size: 2.5rem; /* 1 */
+    color: var(--primary-color);
+}
+
+.categories span{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: var(--primary-color);
+    font-size: 1.8rem; /* 1.2 */
+    font-weight: 500;
+}
+
+.category_menu{
+    display: none;
+}
+
+.category{
+    position: absolute;
+    top: 12rem;
+    left: 47.5rem;
+    padding: 1.5rem 2.5rem 1.5rem 2rem;
+    background: #fff;
+    font-size: 2rem;
+    display: flex;
+    max-height: 50rem;
+    width: 27rem;
+    overflow-y: auto;
+    overflow-x: scroll;
+    z-index: 9999;
+    border: 1px solid #cfcfcf;
+}
+
+.category ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;    
+}
+
+.category ul li{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories:hover > .category_menu{
+    display: block;
+}
+
+.offers{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro Regular",sans-serif;
+    font-size: 1.6rem; /* 1.3 */
+    color: #666;
+    cursor: pointer;
+}
+
+/* ======== RESPONSIVE ========== */
+@media (max-width: 1440px) {
+    .navbar_container{
+        padding-inline: 5rem;
+    }
+    
+    .category{
+        left: 20.6rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navbar_container{
+        padding-inline: 3rem;
+    }
+
+    .category{
+        left: 18.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar_container{
+        padding-inline: 2rem;
+    }
+
+
+    .category{
+        left: 17.5rem;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .navbar_container{
+        padding-inline: 1rem;
+    }
+
+    .zipcode i{
+        font-size: 2rem;
+    }
+    
+    .zipcode span{
+        font-size: 1.2rem;
+    }
+    
+    .categories .hamburguer_menu{
+        font-size: 1.8rem;
+    }
+    
+    .categories span{
+        font-size: 1.5rem;
+    }
+
+    .offers{
+        font-size: 1.4rem;
+        margin-left: 2rem;
+    }
+    
+    .category{
+        left: 16rem;
+        padding: 1.5rem 2.5rem 1.5rem 2rem;
+        font-size: 1.5rem;
+        max-height: 40rem;
+        width: 20rem;
+        top: 22.2rem;
+    }
+    
+}
+
+@media (max-width: 375px) {
+    .navbar_container{
+        padding-inline: 0rem;
+    }
+    
+    .categories .hamburguer_menu{
+        font-size: 1.4rem;
+    }
+    
+    .categories span{
+        font-size: 1.4rem;
+    }
+
+    .offers{
+        font-size: 1.3rem;
+        margin-left: 1.7rem;
+    }
+
+    .category{
+        left: 15rem;
+    }
+    
+}
+
+@media (max-width: 320px) {    
+    .categories .hamburguer_menu{
+        margin-left: 0;
+    }
+    
+    .categories span{
+        font-size: 1.2rem;
+    }
+
+    .offers{
+        font-size: 1.1rem;
+        margin-left: 1rem;
+    }
+
+    .category{
+        left: 15rem;
+        padding: 1rem 2.5rem 1rem 1.5rem;
+        font-size: 1.2rem;
+        width: 15rem;
+    }
+    
+}

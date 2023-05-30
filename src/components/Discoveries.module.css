@@ -1,0 +1,22 @@
+.container h1{
+    width: fit-content;
+    letter-spacing: .1rem;
+    margin-block: 1rem;
+    text-transform: uppercase;
+    border-bottom: 1.1rem solid lightcoral;
+}
+
+.container .product{
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-block: 2rem 10rem;
+}
+
+/* ======== RESPONSIVE ======== */
+@media (max-width: 425px) {
+    .container .product{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,19 @@
+.container h1{
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 5rem;
+    color: red;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+.container p{
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+    text-decoration: underline;
+}

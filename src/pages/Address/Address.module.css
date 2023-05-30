@@ -1,0 +1,191 @@
+.container{
+    display: flex;
+}
+
+.address{
+    width: 100%;
+}
+
+.address h1{
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+    color: var(--primary-color);
+}
+
+.street{
+    text-transform: capitalize;
+}
+
+.district{
+    text-transform: uppercase;
+}
+
+.address_list{
+    background: #fff;
+}
+
+.address_list ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.address_list ul li{
+    max-width: 48rem;
+    margin: 0 3rem 3rem 0;
+    overflow: initial;
+    width: 100%;
+    background: #fff;
+}
+
+.card{
+    width: 100%;
+    padding: 2.5rem;
+    border-radius: .3rem;
+    border: 1px solid #eeeeee;
+    box-shadow: 2px 2px 4px 0 #eeeeee;
+}
+
+.address{
+    width: 100%;
+}
+
+.address h2{
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.address p{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #333;
+    margin-bottom: .6rem;
+}
+
+.card_options{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    padding: 15px 0 0;
+    border-top: 1px solid #eee;
+}
+
+.card_options button{
+    user-select: none;
+    background: transparent;
+    border: none;
+    font-size: 1.4rem;
+    color: #666;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #008000;
+}
+
+.card_options button:last-child{
+    margin-left: 3rem;
+    color: #ff0000 !important;
+}
+
+.card_options button i{
+    margin-right: .5rem;
+    font-size: 1.7rem;
+}
+
+.edit_adress{
+    width: 80%;
+    margin-bottom: 15rem;
+    display: none;
+}
+
+.new_address{
+    width: 100%;
+    padding: 2.4rem;
+    border-radius: .3rem;
+    border: 1px solid #eeeeee;
+    box-shadow: 2px 2px 4px 0 #eeeeee;
+}
+
+.new_address h2{
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.zipcode,
+.state,
+.address_number{
+    outline: none;
+    color: rgb(51, 51, 51);
+    width: 100%;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: .8rem;
+    height: 4.8rem;
+    padding: 1.5rem 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 2.3rem;
+}
+
+.state:valid,
+.address_number:valid,
+.complement:valid,
+.reference_point:valid{
+    border: 1px solid green;
+}
+
+.complement_address{
+    display: flex;
+    column-gap: 2rem;
+}
+
+.address_number{
+    width: 50% !important;
+}
+
+.error{
+    color: rgb(234, 1, 15);
+    font-size: 1.2rem;
+    font-family: Arial;
+    font-weight: lighter;
+    margin-block: -2rem 2rem;
+}
+
+.cancel{
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    color: #333;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: -1.6rem;
+}
+
+.cancel::first-letter{
+    text-transform: uppercase;
+}
+
+.register_address{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-inline: 2rem;
+}
+
+.register_address div{
+    width: 30rem;
+    margin: 0 auto;
+}
+
+/* ======= RESPONSIVE ======== */
+@media (max-width: 768px) {
+    .container{
+        flex-direction: column;
+    }
+
+    .edit_adress{
+        width: 100%;
+    }
+}

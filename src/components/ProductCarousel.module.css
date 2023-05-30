@@ -1,0 +1,189 @@
+.container {
+    max-width: 75vw;
+}
+
+.container h1{
+    width: fit-content;
+    letter-spacing: .1rem;
+    margin-block: 1rem;
+    text-transform: uppercase;
+}
+
+.container .carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.container .carousel .item {
+    background-color: white;
+    margin: 1rem;
+    width: 28rem;
+    flex: none;
+}
+
+.container .arrows {
+    width: 100%;
+    text-align: center;
+    margin-block: 2rem 10rem;
+}
+
+.container .arrows button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.container .arrows button img{
+    width: 3rem;
+}
+
+.container .arrows button:first-child img {
+    transform: rotate(180deg);
+}
+
+.container .carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.product_card{
+    max-width: 30rem;
+    height: 40rem;
+    border: 1px solid rgb(229, 229, 229);
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: rgb(0 0 0 / 14%) 0px 6px 10px;
+    overflow: hidden;
+    border-radius: 1.6rem;
+    cursor: pointer;
+}
+
+.product_card .product_img{
+    text-align: center;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.product_card img{
+    width: 70%;
+}
+
+.product_card .product_img button{
+    position: absolute;
+    bottom: 0;
+    font-size: 1.5rem;
+    color: #00aae0;
+    border-radius: 3px;
+    outline: 0;
+    background: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    width: 121px;
+    height: 36px;
+    padding: 10px 15px;
+    margin: 0;
+    opacity: .9;
+    display: none;
+    border: 1px solid #00aae0;
+    cursor: pointer;
+}
+
+.product_card:hover.product_card button{
+    display: block;
+}
+
+.products_info{
+    text-align: left;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.products_info h2{
+    color: rgb(51, 51, 51);
+    font-size: 1.8rem;
+    text-transform: lowercase;
+    font-weight: 700;
+    line-height: 2.3rem;
+    max-height: 6.9rem;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-bottom: .5rem;
+}
+
+.products_info h4{
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin-bottom: .5rem;
+}
+
+.products_info .promotion{
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+    margin-block: .5rem;
+    width: fit-content;
+}
+
+.products_info .promotion p{
+    color: rgb(102, 102, 102);
+    font-size: 1.4rem;
+    text-decoration: line-through;
+    font-weight: 400;
+}
+
+.products_info .promotion .discount{
+    background-color: rgb(7, 170, 7);
+    border-radius: 1.6rem;
+    width: fit-content;
+    height: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: .5rem;
+    padding-inline: .3rem;
+}
+
+.products_info .promotion .discount .discount_badge{
+    width: 1rem;
+    height: rem;
+}
+
+.products_info .promotion .discount span{
+    margin-left: .4rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+}
+
+.products_info h3{
+    color: rgb(51, 51, 51);
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-block: 1rem;
+}
+
+.products_info p{
+    color: rgb(102, 102, 102);
+    font-size: 1.4rem;
+}
+
+/* ========= RESPONSIVE ============== */
+@media (max-width: 1440px) {
+    .container .carousel .item {
+        flex: 0 1;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 100vw;
+    }
+}

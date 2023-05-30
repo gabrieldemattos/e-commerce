@@ -1,0 +1,402 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.container h2{
+    color: rgb(51, 51, 51);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 16px;    
+}
+
+.order{
+    width: 100%;
+    height: fit-content;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #cfcfcf;
+}
+
+.order_details{
+    width: 50%;
+    padding-right: 1rem;
+}
+
+.status_date > div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.status_date span{
+    color: rgb(114, 114, 114);
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.status_date h4{
+    color: rgb(33, 33, 33);
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.address_delivery h2{
+    color: rgb(51, 51, 51);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.address h3{
+    color: rgb(51, 51, 51);
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px 0px 16px;
+}
+
+.address p{
+    color: #8b8888;
+    line-height: 21px;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.address p:not(:nth-child(2)){
+    margin-top: 8px;
+}
+
+.status{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status > div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3.6rem;
+}
+
+.status > div span{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-left: 10px;
+    color: rgb(33, 33, 33);
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+.status > div i{
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.payment{
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment span{
+    color: rgb(114, 114, 114);
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+
+.payment_method{
+    text-transform: uppercase;
+}
+
+.total span:first-child{
+    font-weight: 700;
+}
+
+.total span:last-child{
+    color: rgb(33, 33, 33);
+    font-weight: 700;
+}
+
+.button{
+    text-align: center;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.button button{
+    width: 55rem;
+    height: 5rem;
+    font-weight: 700;
+    font-size: 1.7rem;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 4px;        
+    background: var(--primary-color);
+    transition: .2s;
+}
+
+.button button:hover{
+    background: var(--hover-primary-color);
+}
+
+.button button::first-letter{
+    text-transform: uppercase;
+}
+
+.title{
+    margin-top: 4rem;
+}
+
+/* ============= ORDER LIST ================ */
+
+.order_list{
+    border: 1px solid rgb(189, 189, 189);
+    margin-block: 2.5rem 4rem;
+    padding: 2rem;
+    padding-bottom: 0;
+}
+
+.product_order{
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.order_img{
+    width: 120px;
+    height: 120px;
+    background: #eee;
+    margin-right: 2rem;
+}
+
+.order_img img{
+    width: 120px;
+    height: 120px;
+}
+
+.item_information{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item_details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item_name_size{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-right: 1rem;
+}
+
+.name h3{
+    color: rgb(33, 33, 33);
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+    line-height: 22.5px;
+}
+
+.size p{
+    color: rgb(114, 114, 114);
+    line-height: 1.5;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.item_price{
+    text-align: right;
+    width: 13rem;
+}
+
+.item_price p{
+    color: rgb(33, 33, 33);
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.item_quantity p{
+    color: rgb(114, 114, 114);
+    line-height: 1.5;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+/* ====== STATUS ======== */
+.dispatched{
+    width: 25rem;
+    padding: 4px 8px;
+    display: flex;
+    border: 1px solid rgb(0, 112, 192);
+    background: rgb(255, 255, 255);
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.dispatched p{
+    color: rgb(0, 112, 192);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: normal;
+    top: -1px;
+}
+
+.delivered{
+    width: 25rem;
+    padding: 4px 8px;
+    display: flex;
+    border: 1px solid rgb(0, 176, 80);
+    background: rgb(255, 255, 255);
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivered p{
+    color: rgb(0, 176, 80);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: normal;
+    top: -1px;
+}
+
+.awaiting_payment{
+    width: 25rem;
+    padding: 4px 8px;
+    display: flex;
+    border: 1px solid #929090;
+    background: rgb(255, 255, 255);
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.awaiting_payment p{
+    color: #929090;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: normal;
+    top: -1px;
+}
+
+.canceled{
+    width: 25rem;
+    padding: 4px 8px;
+    display: flex;
+    border: 1px solid #e20404;
+    background: rgb(255, 255, 255);
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.canceled p{
+    color: #e20404;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: normal;
+    top: -1px;
+}
+
+/* ============ RESPONSIVE ============== */
+@media (max-width: 1024px) {
+    .dispatched,
+    .delivered,
+    .awaiting_payment,
+    .canceled{
+        width: 20rem;
+    }
+    
+    .dispatched p,
+    .delivered p,
+    .awaiting_payment p,
+    .canceled p{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .dispatched,
+    .delivered,
+    .awaiting_payment,
+    .canceled{
+        width: fit-content;
+    }
+
+    .order{
+        width: 100%;
+        flex-direction: column;
+        border: 1px solid #cfcfcf;
+    }
+
+    .order_details{
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 2.5rem;
+    }
+    
+    .order_payment{
+        width: 100%;
+        border-top: 1px solid #cfcfcf;
+        padding-top: 2rem;
+    }
+
+    .item_price p{
+        font-size: 1.4rem;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .button button{
+        width: 100%; 
+        padding-block: 1rem;
+        padding-inline: 6rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .item_details{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .item_price{
+        text-align: left;
+        margin-block: 2rem;
+        width: 100%;
+    }
+
+    .item_price p{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .container h2{
+        font-size: 1.6rem;  
+    }
+    
+    .button button{
+        padding-inline: 4rem;
+    }
+}

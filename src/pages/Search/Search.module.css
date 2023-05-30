@@ -1,0 +1,10 @@
+.container h1{
+    margin-block: 4rem;
+}
+
+.container .results{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 15rem;
+}

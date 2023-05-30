@@ -28,7 +28,7 @@ Here are some screenshots of the project:
 ![Home Page](screenshots/home.png)
 _On the project's homepage, you will find the latest discoveries of the day and the available categories. Right at the beginning, there is a navigation bar that provides various options, such as accessing your profile, creating a new account, viewing your shopping cart, or searching for a specific product. Additionally, you can explore different product categories and check out featured promotions. The navigation bar makes it easy to navigate and quickly access different sections of the project._
 
-![Category Page](screenshots/category.png.png)
+![Category Page](screenshots/category.png)
 _On the categories page, you can see all the available products in the selected category._
 
 ![Promotions Page](screenshots/promotions.png)
@@ -37,7 +37,7 @@ _On the promotions page, you can check out all the discounted products._
 ![Search Page](screenshots/search-page.png)
 _After searching for a product, the search page displays all the search results._
 
-![Account Page](screenshots/account-page.png.png)
+![Account Page](screenshots/account-page.png)
 _When accessing your account page, you can view your order history. By clicking on an order, you can check its details. On your account page, you can also initiate exchanges, review and update your personal information, change your email, password, and address._
 
 ![Change Address](screenshots/change-address.png)
